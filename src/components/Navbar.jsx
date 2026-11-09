@@ -68,7 +68,7 @@ export default function Navbar({ lang, setLang, onOpenBooking }) {
           {/* Official Logo */}
           <a href="#" className="flex items-center gap-3 group">
             <img 
-              src="/suresh-events-logo.png" 
+              src={`${import.meta.env.BASE_URL}suresh-events-logo.png`} 
               alt="Suresh Events Logo" 
               className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-105 drop-shadow-[0_2px_10px_rgba(245,158,11,0.25)]"
             />

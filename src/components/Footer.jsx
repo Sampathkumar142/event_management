@@ -18,7 +18,7 @@ export default function Footer({ lang, onOpenBooking }) {
           <div className="md:col-span-5 space-y-3">
             <a href="#" className="inline-block">
               <img 
-                src="/suresh-events-logo.png" 
+                src={`${import.meta.env.BASE_URL}suresh-events-logo.png`} 
                 alt="Suresh Events Logo" 
                 className="h-14 sm:h-16 w-auto object-contain drop-shadow-[0_2px_15px_rgba(245,158,11,0.25)]"
               />

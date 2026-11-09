@@ -396,6 +396,8 @@ export const CONTENT = {
   }
 };
 
+const BASE = import.meta.env.BASE_URL || '/';
+
 export const GALLERY_ITEMS = [
   {
     titleEn: "Special Dum Biryani Cooking Live (Top Chefs)",
@@ -404,8 +406,8 @@ export const GALLERY_ITEMS = [
     tag: "Catering",
     badge: "Live Video",
     isVideo: true,
-    video: "/gallery/VID-20261109-WA0047.mp4",
-    image: "/gallery/VID-20261109-WA0047-thumb.jpg",
+    video: `${BASE}gallery/VID-20261109-WA0047.mp4`,
+    image: `${BASE}gallery/VID-20261109-WA0047-thumb.jpg`,
     duration: "20s HD"
   },
   {
@@ -415,8 +417,8 @@ export const GALLERY_ITEMS = [
     tag: "Wedding",
     badge: "Live Video",
     isVideo: true,
-    video: "/gallery/VID_20261109_154258_1.mp4",
-    image: "/gallery/VID_20261109_154258_1-thumb.jpg",
+    video: `${BASE}gallery/VID_20261109_154258_1.mp4`,
+    image: `${BASE}gallery/VID_20261109_154258_1-thumb.jpg`,
     duration: "8s HD"
   },
   {
@@ -426,8 +428,8 @@ export const GALLERY_ITEMS = [
     tag: "Catering",
     badge: "Live Video",
     isVideo: true,
-    video: "/gallery/VID-20261109-WA0049.mp4",
-    image: "/gallery/VID-20261109-WA0049-thumb.jpg",
+    video: `${BASE}gallery/VID-20261109-WA0049.mp4`,
+    image: `${BASE}gallery/VID-20261109-WA0049-thumb.jpg`,
     duration: "14s HD"
   },
   {
@@ -437,8 +439,8 @@ export const GALLERY_ITEMS = [
     tag: "Catering",
     badge: "Live Video",
     isVideo: true,
-    video: "/gallery/VID-20261109-WA0039.mp4",
-    image: "/gallery/VID-20261109-WA0039-thumb.jpg",
+    video: `${BASE}gallery/VID-20261109-WA0039.mp4`,
+    image: `${BASE}gallery/VID-20261109-WA0039-thumb.jpg`,
     duration: "10s HD"
   },
   {
@@ -447,7 +449,7 @@ export const GALLERY_ITEMS = [
     location: "Rajahmundry / Vemagiri",
     tag: "Wedding",
     badge: "Real Work",
-    image: "/gallery/grand-kalyana-mandapam-gold-pillars.jpg"
+    image: `${BASE}gallery/grand-kalyana-mandapam-gold-pillars.jpg`
   },
   {
     titleEn: "Royal Wedding Mandapam with Multi-Tier Floral Canopy Arch",
@@ -455,7 +457,7 @@ export const GALLERY_ITEMS = [
     location: "Vemagiri / Rajahmundry",
     tag: "Wedding",
     badge: "Real Work",
-    image: "/gallery/royal-wedding-floral-arch-canopy.jpg"
+    image: `${BASE}gallery/royal-wedding-floral-arch-canopy.jpg`
   },
   {
     titleEn: "Sacred Sri Venkateswara Swamy Floral Mandapam Alankaram",
@@ -463,7 +465,7 @@ export const GALLERY_ITEMS = [
     location: "Rajahmundry / Chelluru",
     tag: "Wedding",
     badge: "Real Work",
-    image: "/gallery/sri-balaji-floral-mandapam-stage.jpg"
+    image: `${BASE}gallery/sri-balaji-floral-mandapam-stage.jpg`
   },
   {
     titleEn: "Fresh Godavari Jumbo Prawns Inspected by Suresh Garu (Catering)",
@@ -471,7 +473,7 @@ export const GALLERY_ITEMS = [
     location: "Rajahmundry / Kakinada",
     tag: "Catering",
     badge: "Real Work",
-    image: "/gallery/fresh-prawns-suresh-catering.jpg"
+    image: `${BASE}gallery/fresh-prawns-suresh-catering.jpg`
   },
   {
     titleEn: "Authentic Yellow Marigold Garland & Uruli Haldi Setup",
@@ -479,7 +481,7 @@ export const GALLERY_ITEMS = [
     location: "Rajahmundry / Vemagiri",
     tag: "Haldi",
     badge: "Real Work",
-    image: "/gallery/haldi-marigold-uruli-stage.jpg"
+    image: `${BASE}gallery/haldi-marigold-uruli-stage.jpg`
   },
   {
     titleEn: "Grand Circular Floral Ring & Green Lawn Stage",
@@ -487,7 +489,7 @@ export const GALLERY_ITEMS = [
     location: "Vemagiri / Rajahmundry",
     tag: "Reception",
     badge: "Real Work",
-    image: "/gallery/grand-floral-ring-stage.jpg"
+    image: `${BASE}gallery/grand-floral-ring-stage.jpg`
   },
   {
     titleEn: "Royal Gold Sofa with Balloon Arch Stage Decor",
@@ -495,7 +497,7 @@ export const GALLERY_ITEMS = [
     location: "Chelluru / Rayavaram",
     tag: "Birthday",
     badge: "Real Work",
-    image: "/gallery/balloon-sofa-arch-stage.jpg"
+    image: `${BASE}gallery/balloon-sofa-arch-stage.jpg`
   },
   {
     titleEn: "Pink & White Rose Wall Backdrop with Suresh Garu",
@@ -503,7 +505,7 @@ export const GALLERY_ITEMS = [
     location: "Chelluru / Rayavaram",
     tag: "Reception",
     badge: "Real Work",
-    image: "/gallery/suresh-rose-wall.jpg"
+    image: `${BASE}gallery/suresh-rose-wall.jpg`
   },
   {
     titleEn: "Custom Floral Tree Backdrop for Birthday Celebrations",
@@ -511,7 +513,7 @@ export const GALLERY_ITEMS = [
     location: "Rajahmundry",
     tag: "Birthday",
     badge: "Real Work",
-    image: "/gallery/birthday-floral-tree.jpg"
+    image: `${BASE}gallery/birthday-floral-tree.jpg`
   }
 ];
 

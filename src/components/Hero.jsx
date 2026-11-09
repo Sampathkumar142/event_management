@@ -16,7 +16,7 @@ export default function Hero({ lang, onOpenBooking }) {
         {/* Official Brand Logo */}
         <div className="mb-4 sm:mb-6 flex justify-center">
           <img
-            src="/suresh-events-logo.png"
+            src={`${import.meta.env.BASE_URL}suresh-events-logo.png`}
             alt="Suresh Events - East Godavari"
             className="h-20 sm:h-32 md:h-36 w-auto object-contain drop-shadow-[0_4px_30px_rgba(245,158,11,0.35)] hover:scale-105 transition-transform duration-300"
           />
